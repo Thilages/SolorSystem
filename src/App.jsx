@@ -22,7 +22,7 @@ const App = () => {
       {loading && (
         <div className="fixed inset-0 bg-black flex items-center justify-center z-50">
           <div className="text-white text-center flex items-center justify-center">
-            <p className="text-2xl font-semibold">Loading Universe...</p>
+            <p className="text-2xl font-semibold">Loading ...</p>
             <div className="w-16 h-16 border-4 border-gray-400 border-t-transparent rounded-full animate-spin mt-4 mx-auto"></div>
           </div>
         </div>
