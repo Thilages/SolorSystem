@@ -1,5 +1,5 @@
 import React from 'react'
-import Planet from './components/planet'
+import Planet from './components/Planet'
 import Stars from './components/Stars'
 import { mercury, sun, venus, earth, mars, jupiter, saturn, neptune, uranus } from '../constants'
 import { Canvas } from '@react-three/fiber'
