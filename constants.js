@@ -11,68 +11,69 @@ import neptune from "./src/assets/neptune.jpg"
 export const planetsData = {
   sun: {
     name: "Sun",
-    size: "Huge", // Kid-friendly size description
-    description: "The Sun is a big ball of burning gas that gives us light and warmth. It's the center of our solar system!",
+    size: "1,391,000 km in diameter",
+    description: "The Sun is a massive, glowing sphere of hot gases. It is the center of the Solar System and provides light and energy to all planets.",
     color: "#ffcc00", // Bright yellow
-    funFact: "The Sun is so big that 1 million Earths could fit inside it!",
+    funFact: "The Sun accounts for about 99.8% of the total mass in the Solar System.",
   },
   mercury: {
     name: "Mercury",
-    size: "Small", // Kid-friendly size description
-    description: "Mercury is the closest planet to the Sun. It's super hot during the day and freezing at night!",
+    size: "4,879 km in diameter",
+    description: "Mercury is the smallest planet in the Solar System and the closest to the Sun. It has extreme temperature variations due to its lack of atmosphere.",
     color: "#b2b2b2", // Greyish
-    funFact: "Mercury has no moons and is the smallest planet in the Solar System!",
+    funFact: "A day on Mercury (one full rotation) is longer than a year (one orbit around the Sun).",
   },
   venus: {
     name: "Venus",
-    size: "Similar to Earth", // Kid-friendly size description
-    description: "Venus is a hot and cloudy planet. It has a thick atmosphere that traps heat like a giant oven!",
+    size: "12,104 km in diameter",
+    description: "Venus, similar in size to Earth, is covered by a thick, toxic atmosphere that traps heat, making it the hottest planet in the Solar System.",
     color: "#f5cc87", // Yellowish
-    funFact: "A day on Venus is longer than a year on Venus! It takes 243 Earth days to spin once!",
+    funFact: "Venus rotates in the opposite direction to most planets, causing the Sun to rise in the west.",
   },
   earth: {
     name: "Earth",
-    size: "Medium", // Kid-friendly size description
-    description: "Earth is the only planet known to have life. It has oceans, land, and lots of animals and plants!",
+    size: "12,742 km in diameter",
+    description: "Earth is the third planet from the Sun and the only one known to support life, thanks to its water-rich surface and protective atmosphere.",
     color: "#2b7cff", // Blue and green
-    funFact: "Earth is the only planet we know of where people, animals, and plants live!",
+    funFact: "Earth’s rotation is gradually slowing by about 17 milliseconds per century.",
   },
   mars: {
     name: "Mars",
-    size: "Half the size of Earth", // Kid-friendly size description
-    description: "Mars is the red planet. It's full of dust and rocks, and it might have had water in the past!",
+    size: "6,779 km in diameter",
+    description: "Mars, often called the 'Red Planet,' is known for its iron-rich surface and cold, desert-like conditions.",
     color: "#d14c32", // Red
-    funFact: "Mars has the tallest volcano in the solar system, called Olympus Mons. It's three times taller than Mount Everest!",
+    funFact: "Mars has two moons, Phobos and Deimos, which are thought to be captured asteroids.",
   },
   jupiter: {
     name: "Jupiter",
-    size: "Gigantic", // Kid-friendly size description
-    description: "Jupiter is the biggest planet. It has a giant storm called the Great Red Spot that has been going on for hundreds of years!",
+    size: "139,820 km in diameter",
+    description: "Jupiter is the largest planet in the Solar System, with a powerful magnetic field and a prominent storm known as the Great Red Spot.",
     color: "#d5a973", // Brown and orange
-    funFact: "Jupiter has 79 moons! One of them, Ganymede, is the biggest moon in the entire solar system!",
+    funFact: "Jupiter has 79 known moons, including Ganymede, the largest moon in the Solar System.",
   },
   saturn: {
     name: "Saturn",
-    size: "Very Large", // Kid-friendly size description
-    description: "Saturn is famous for its beautiful rings made of ice and rock. It's a giant ball of gas!",
+    size: "116,460 km in diameter",
+    description: "Saturn is famous for its extensive ring system, made up of ice and rock particles, and is the second-largest planet in the Solar System.",
     color: "#f5e0a9", // Yellowish
-    funFact: "Saturn is so light that if there was a giant bathtub big enough, it would float in water!",
+    funFact: "Saturn’s rings are so vast they could stretch from Earth to the Moon.",
   },
   uranus: {
     name: "Uranus",
-    size: "Large", // Kid-friendly size description
-    description: "Uranus is a cool blue planet that rolls around the Sun on its side. It looks like it's 'sleeping' as it spins!",
+    size: "50,724 km in diameter",
+    description: "Uranus is an ice giant that rotates on its side, giving it a unique rolling orbit around the Sun.",
     color: "#a3dbf5", // Light blue
-    funFact: "Uranus has 13 faint rings made of ice and rocks. It's the coldest planet in the solar system!",
+    funFact: "Uranus has 27 moons, most of which are named after characters from Shakespearean plays.",
   },
   neptune: {
     name: "Neptune",
-    size: "Large", // Kid-friendly size description
-    description: "Neptune is a deep blue planet. It's windy and cold, and it's the farthest planet from the Sun!",
+    size: "49,244 km in diameter",
+    description: "Neptune is the farthest planet from the Sun, known for its deep blue color and supersonic winds.",
     color: "#2b5caa", // Dark blue
-    funFact: "Neptune has the fastest winds in the solar system, reaching speeds up to 1,200 miles per hour!",
+    funFact: "Neptune's moon Triton orbits the planet in the opposite direction of its rotation, a phenomenon called retrograde orbit.",
   },
 };
+
 
 
 export { earth, mars, sun, venus, mercury, jupiter, saturn, uranus, neptune }

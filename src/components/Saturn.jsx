@@ -14,7 +14,7 @@ export default function Saturn(props) {
     const x = props.position[0] * Math.cos(angle)
     const z = props.position[0] * Math.sin(angle)
     const cameraX = (props.position[0] + 10) * Math.cos(angle)
-    const cameraZ = (props.position[0] -6) * Math.sin(angle)
+    const cameraZ = (props.position[0] - 6) * Math.sin(angle)
 
 
     if (group.current) {
@@ -27,12 +27,22 @@ export default function Saturn(props) {
       camera.lookAt(targetPosition);
     }
   })
+  const handlePlanetClick = () => {
+    setselected(!selected)
+    // console.log(selected)
+    if (selected) {
+      props.handleClick("sun")
+    } else {
+      props.handleClick(props.name)
+    }
+  }
+
 
 
   const { nodes, materials, animations } = useGLTF('/models/saturn.glb')
   const { actions } = useAnimations(animations, group)
   return (
-    <group ref={group} {...props} dispose={null} onClick={() => setselected(!selected)}>
+    <group ref={group} {...props} dispose={null} onClick={() => handlePlanetClick()}>
       <group name="Sketchfab_Scene">
         <group name="Sketchfab_model" rotation={[-Math.PI / 2, 0, 0]} scale={0.002}>
           <group name="56fb5d81d5a845599d5e60534f293915fbx" rotation={[Math.PI / 2, 0, 0]}>
