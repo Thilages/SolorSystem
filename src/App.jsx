@@ -26,7 +26,7 @@ const App = () => {
         <PerspectiveCamera makeDefault position={[0, 10, 30]} />
 
         <OrbitControls maxAzimuthAngle={Math.PI / 4} />
-        <pointLight intensity={10} distance={1000} decay={1} />
+        <pointLight intensity={10} distance={10000} decay={1} />
 
         <ambientLight intensity={0.2} />
         <Sun scale={0.2} handleClick={setSelectedPlanet} name={"sun"} />
@@ -45,7 +45,7 @@ const App = () => {
         {/* <Planet size={1} planetName={saturn} position={[27, 0, 0]} speed={0.3} /> */}
         <Saturn position={[27, 0, 0]} handleClick={setSelectedPlanet} name={"saturn"} />
         <Planet size={0.9} planetName={uranus} position={[34, 0, 0]} speed={0.1} handleClick={setSelectedPlanet} name={"uranus"} />
-        <Planet size={0.8} planetName={neptune} position={[39, 0, 0]} speed={0.} handleClick={setSelectedPlanet} name={"neptune"} />
+        <Planet size={0.8} planetName={neptune} position={[39, 0, 0]} speed={0.08} handleClick={setSelectedPlanet} name={"neptune"} />
         {/* <Planet size={0.7} planetName={mars} position={[17,0,0]} speed={0.4}/> */}
         <Stars />
       </Canvas>

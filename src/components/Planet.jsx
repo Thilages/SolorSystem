@@ -78,7 +78,7 @@ const Planet = ({ size, planetName, position, speed = 0, sun, handleClick, name 
         />
       </mesh>
       <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0, 0]}>
-        <ringGeometry args={[position[0] - 0.005, position[0], 64]} />
+        <ringGeometry args={[position[0] - 0.02, position[0], 64]} />
         <meshBasicMaterial color={"gray"} side={THREE.DoubleSide} />
       </mesh>
       {/* {sun ? <pointLight  color={"red"} intensity={2} distance={100} decay={2} /> : <></>} */}

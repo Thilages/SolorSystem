@@ -12,7 +12,7 @@ const Text = ({ name }) => {
   const { name: planetName, size, description, funFact } = planet;
 
   return (
-    <div className="absolute inset-0 flex pointer-events-none  flex-col justify-between text-white p-4  z-10">
+    <div className="fixed inset-0 flex pointer-events-none flex-col justify-between text-white p-4 z-10">
       {/* Top Section */}
       <div className="text-center">
         <h1 className="text-4xl font-bold">{planetName}</h1>
