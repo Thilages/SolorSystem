@@ -15,7 +15,7 @@ import Text from './components/Text';
 const App = () => {
   const [selectedPlanet, setSelectedPlanet] = useState("sun");
   const [loading, setLoading] = useState(true);
-
+  console.log("I made this for my younger cousins... OK")
   return (
     <div className='w-full h-screen relative font-kanit overflow-hidden'>
       {/* Loading Screen */}
